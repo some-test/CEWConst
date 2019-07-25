@@ -1,0 +1,22 @@
+{
+  "name": "CEWConst",
+  "version": "0.1.0",
+  "summary": "A short description of CEWConst.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ltt143@126.com/CEWConst",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ltt143@126.com": "tengliang@creditease.cn"
+  },
+  "source": {
+    "git": "https://github.com/ltt143@126.com/CEWConst.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CEWConst/Classes/**/*"
+}

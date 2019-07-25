@@ -1,0 +1,6 @@
+framework module CEWConst {
+  umbrella header "CEWConst-umbrella.h"
+
+  export *
+  module * { export * }
+}

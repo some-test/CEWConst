@@ -1,0 +1,16 @@
+PODS:
+  - CEWConst (0.1.0)
+
+DEPENDENCIES:
+  - CEWConst (from `../`)
+
+EXTERNAL SOURCES:
+  CEWConst:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CEWConst: 34fd5a5e3ecf6fb99e7ecf8b5f01f6c9aae8a84f
+
+PODFILE CHECKSUM: f6bb30243d4a81db9e010ba06978eb5167f83a47
+
+COCOAPODS: 1.7.5

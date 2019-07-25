@@ -60,13 +60,13 @@
 		6CF0AE236B3B782F8293F759 /* Pods-CEWConst_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEWConst_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CEWConst_Tests/Pods-CEWConst_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A3D992279D414D5674FAD97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8A3D992279D414D5674FAD97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		92277C2769558A435973D58C /* Pods-CEWConst_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEWConst_Example.debug.xcconfig"; path = "Target Support Files/Pods-CEWConst_Example/Pods-CEWConst_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AD22A993C141C6B704A77C8C /* Pods-CEWConst_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CEWConst_Tests.release.xcconfig"; path = "Target Support Files/Pods-CEWConst_Tests/Pods-CEWConst_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BD90452178D9D243E6B89991 /* Pods_CEWConst_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEWConst_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10C5B2A15A7430EE2C5FCF6 /* Pods_CEWConst_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CEWConst_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2623475FB7B62AE64F1334A /* CEWConst.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CEWConst.podspec; path = ../CEWConst.podspec; sourceTree = "<group>"; };
-		F4C4F55AB711AA7A31364114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2623475FB7B62AE64F1334A /* CEWConst.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CEWConst.podspec; path = ../CEWConst.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F4C4F55AB711AA7A31364114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				6CF0AE236B3B782F8293F759 /* Pods-CEWConst_Tests.debug.xcconfig */,
 				AD22A993C141C6B704A77C8C /* Pods-CEWConst_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				1C3887F739AF3FE242874F4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,24 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C3887F739AF3FE242874F4A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CEWConst_Example/Pods-CEWConst_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CEWConst/CEWConst.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CEWConst.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CEWConst_Example/Pods-CEWConst_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		49029B3FD53D34E735DF4906 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
