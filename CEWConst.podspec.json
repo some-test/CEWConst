@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of CEWConst.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ltt143@126.com/CEWConst",
+  "homepage": "https://github.com/some-test/CEWConst",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "ltt143@126.com": "tengliang@creditease.cn"
   },
   "source": {
-    "git": "https://github.com/ltt143@126.com/CEWConst.git",
+    "git": "https://github.com/some-test/CEWConst.git",
     "tag": "0.1.0"
   },
   "platforms": {

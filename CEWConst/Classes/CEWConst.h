@@ -6,7 +6,6 @@
 //  Copyright © 2017年 creditease. All rights reserved.
 //
 
-#import "CEWInterfaceConst.h"
 #import "CEWColorConst.h"
 #import "CEWFontConst.h"
 #import "UIColor+CEWExtension.h"

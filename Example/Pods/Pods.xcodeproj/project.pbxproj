@@ -6,25 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		4B66D74E8B44D3B5BE9B724CBDED6105 /* CEWConst */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 9B31EC74163EEB954049045878ED27F0 /* Build configuration list for PBXAggregateTarget "CEWConst" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = CEWConst;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		0907904F83E6455A8165853621D20D12 /* CEWConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B0A5A50BA4FD51F3E575C9934D6EF6 /* CEWConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BA80EDB518D2389E5446DD07BC3C49B /* UIColor+CEWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A3CDF6F58AC67ADF59A07C3257BA51 /* UIColor+CEWExtension.m */; };
 		1D11E5BE4A79318126C1BB3A6CFC38D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		45F3088B6A817F432069AB1881300E98 /* Pods-CEWConst_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A40F95EEDED6B5702CCBEB428178D5 /* Pods-CEWConst_Tests-dummy.m */; };
-		7EC4C407144AB7BD8BEC22C7401ED1C3 /* Pods-CEWConst_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0200275A56C13CDFF589683907EAD2B3 /* Pods-CEWConst_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACB81D9FCAF2AC15774398A1A0D7F6A3 /* Pods-CEWConst_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB147A15952FB833007852C0CA901FAB /* Pods-CEWConst_Example-dummy.m */; };
+		25F3EEC7909B149D81808141003EDE01 /* CEWFontConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F852B9FFB95DD6982EA16BF0CD72F6 /* CEWFontConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F3088B6A817F432069AB1881300E98 /* Pods-CEWConst_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ADBA9E2AD6E26186DA3D8C647ECDA /* Pods-CEWConst_Tests-dummy.m */; };
+		6445406A9C04525666DF89448D0B6FE9 /* CEWColorConst.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4AC9A1603C8C7AA0E7DACF0ACA1CC3 /* CEWColorConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC4C407144AB7BD8BEC22C7401ED1C3 /* Pods-CEWConst_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03518F80742EC237273271B0977FA54C /* Pods-CEWConst_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB3889CB80173EDAB6F1699C90AF13B /* UIColor+CEWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EE28F9D83D37F4A26725AA74D345AD37 /* UIColor+CEWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACB81D9FCAF2AC15774398A1A0D7F6A3 /* Pods-CEWConst_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 757EAB296E6E21EFD86DFD371A7FA516 /* Pods-CEWConst_Example-dummy.m */; };
+		BA93D2912AECDA0F4044B3F5191E8D24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BC3209478A85EE4632F65C711E68B510 /* CEWConst-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD9282AEFFD23F750ADC1552BE3E6ED /* CEWConst-dummy.m */; };
 		C07D95D6A70DD7CC1786A313F0527904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FA95CDCF6E4301B88DD707FB3BD2495B /* Pods-CEWConst_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC271A0DD5B529E9E228C776C53BE71C /* Pods-CEWConst_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE36E74FD921FE9E13CFE45DECB7D793 /* CEWConst-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7845589894ACD711FF55534A9C84ECD6 /* CEWConst-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA95CDCF6E4301B88DD707FB3BD2495B /* Pods-CEWConst_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1970CEBA38B9D1C49F7FA572641B6827 /* Pods-CEWConst_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,32 +41,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C15DFCE7B9BBC20A4D5AB1D2E780F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0200275A56C13CDFF589683907EAD2B3 /* Pods-CEWConst_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CEWConst_Example-umbrella.h"; sourceTree = "<group>"; };
-		1A9953C277CFDC5423DB258F4EFFF4F1 /* Pods-CEWConst_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CEWConst_Tests.modulemap"; sourceTree = "<group>"; };
-		20A40F95EEDED6B5702CCBEB428178D5 /* Pods-CEWConst_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CEWConst_Tests-dummy.m"; sourceTree = "<group>"; };
+		0016A8BF0A96D7EEF4F94CD8158A0291 /* CEWConst.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CEWConst.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		03518F80742EC237273271B0977FA54C /* Pods-CEWConst_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CEWConst_Example-umbrella.h"; sourceTree = "<group>"; };
+		084762B799E3E8E2C83275144BA0134A /* Pods-CEWConst_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CEWConst_Example.modulemap"; sourceTree = "<group>"; };
+		1587A443915F5DC4827BB8F9139F94E0 /* Pods-CEWConst_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CEWConst_Tests.modulemap"; sourceTree = "<group>"; };
+		164A8593CE1266F575DF4218173D0D52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1970CEBA38B9D1C49F7FA572641B6827 /* Pods-CEWConst_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CEWConst_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2E6A56A546B0AA9D8ED39F2CB84FA2DC /* Pods-CEWConst_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEWConst_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		314BF888C27BA54A9E32071093793B46 /* Pods-CEWConst_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEWConst_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		55649963DA3F077D1D0FBF737968A9AA /* Pods-CEWConst_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEWConst_Example-Info.plist"; sourceTree = "<group>"; };
-		5D6CAB4F14F460F06CB967E7E4912323 /* Pods-CEWConst_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEWConst_Tests-Info.plist"; sourceTree = "<group>"; };
-		69071566971303C2C87A8E49A8D9C151 /* Pods-CEWConst_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEWConst_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6CCFE2101C904A50D7DF7FD841E12AD0 /* Pods-CEWConst_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEWConst_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6CDC11B493CFCC3C25BECB72156F6C64 /* Pods-CEWConst_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEWConst_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		76159DCD0F4F51A876810A8ED649CC7C /* CEWColorConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEWColorConst.h; path = CEWConst/Classes/CEWColorConst.h; sourceTree = "<group>"; };
+		47F3B1DBF429920E946421BEAD0311CC /* Pods-CEWConst_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEWConst_Example-Info.plist"; sourceTree = "<group>"; };
+		5C5ADBA9E2AD6E26186DA3D8C647ECDA /* Pods-CEWConst_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CEWConst_Tests-dummy.m"; sourceTree = "<group>"; };
+		6ECC39B0AD8712D464B3BE4F4B9CCF25 /* CEWConst-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CEWConst-Info.plist"; sourceTree = "<group>"; };
+		74F852B9FFB95DD6982EA16BF0CD72F6 /* CEWFontConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEWFontConst.h; path = CEWConst/Classes/CEWFontConst.h; sourceTree = "<group>"; };
+		757EAB296E6E21EFD86DFD371A7FA516 /* Pods-CEWConst_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CEWConst_Example-dummy.m"; sourceTree = "<group>"; };
 		766E36713B889C67177DF0809D11465A /* Pods_CEWConst_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CEWConst_Tests.framework; path = "Pods-CEWConst_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		77CE4A23ACC50C1BB6D5B8203E5F97D7 /* CEWConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEWConst.h; path = CEWConst/Classes/CEWConst.h; sourceTree = "<group>"; };
+		783E51EFF04AE2F8C94C90EA38E8E4DB /* Pods-CEWConst_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEWConst_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7845589894ACD711FF55534A9C84ECD6 /* CEWConst-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CEWConst-umbrella.h"; sourceTree = "<group>"; };
+		7B306ED7BC1CB201569F7016E5851B8F /* CEWConst.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CEWConst.xcconfig; sourceTree = "<group>"; };
 		806C384A803169B2F0BCF56D45B843AF /* Pods_CEWConst_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CEWConst_Example.framework; path = "Pods-CEWConst_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B040A75904B18AE97BE870F2CBDD66 /* Pods-CEWConst_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEWConst_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B91FB21E31F0FDD186F3FCC93289A84 /* Pods-CEWConst_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CEWConst_Example-frameworks.sh"; sourceTree = "<group>"; };
+		90B0A5A50BA4FD51F3E575C9934D6EF6 /* CEWConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEWConst.h; path = CEWConst/Classes/CEWConst.h; sourceTree = "<group>"; };
+		9655B898EA3E8A6A08C0A03B8619B91B /* Pods-CEWConst_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEWConst_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1092292A5B880C83ABF4134185858AB /* Pods-CEWConst_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEWConst_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A63C6673EB38D7BF5F8298945BDA7A85 /* Pods-CEWConst_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEWConst_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AEDDC8B6D1F57D46FEFAB6010C420B49 /* CEWFontConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEWFontConst.h; path = CEWConst/Classes/CEWFontConst.h; sourceTree = "<group>"; };
-		BB834D0A61BA96DA06E487AFA5E1502C /* CEWConst.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CEWConst.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE2A390C93BFBE0F29A9A8DB74D6995E /* Pods-CEWConst_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEWConst_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C059D0BB6F6B76E64B896BF5D25661F1 /* Pods-CEWConst_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEWConst_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D259A5A5208EDBABA8CBBE3D6D31FC45 /* CEWConst.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CEWConst.xcconfig; sourceTree = "<group>"; };
-		DB147A15952FB833007852C0CA901FAB /* Pods-CEWConst_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CEWConst_Example-dummy.m"; sourceTree = "<group>"; };
-		DC271A0DD5B529E9E228C776C53BE71C /* Pods-CEWConst_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CEWConst_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F1BA994F534BF418BFA144FE7B46B829 /* Pods-CEWConst_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CEWConst_Example.modulemap"; sourceTree = "<group>"; };
-		F4F7944EDCF9D31D1D88758C33FDA20C /* Pods-CEWConst_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CEWConst_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9F5FBA571A498D1D1D4301B69505265E /* Pods-CEWConst_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEWConst_Tests-Info.plist"; sourceTree = "<group>"; };
+		A0D949E872D4FC9F20D5CF1FFDFE1F09 /* Pods-CEWConst_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEWConst_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A5A3CDF6F58AC67ADF59A07C3257BA51 /* UIColor+CEWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CEWExtension.m"; path = "CEWConst/Classes/UIColor+CEWExtension.m"; sourceTree = "<group>"; };
+		ADE4CD229726F89C37B09F70FC4EA239 /* Pods-CEWConst_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEWConst_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B08110358DFFAF0CD710980A665BA519 /* Pods-CEWConst_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CEWConst_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BCD9282AEFFD23F750ADC1552BE3E6ED /* CEWConst-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CEWConst-dummy.m"; sourceTree = "<group>"; };
+		BEE825DF1EC24D692E95A532D8EEF3D1 /* CEWConst.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CEWConst.modulemap; sourceTree = "<group>"; };
+		E3612DFCB0ECA0665D3C96D746CAC984 /* CEWConst.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CEWConst.framework; path = CEWConst.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4AC9A1603C8C7AA0E7DACF0ACA1CC3 /* CEWColorConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEWColorConst.h; path = CEWConst/Classes/CEWColorConst.h; sourceTree = "<group>"; };
+		EE28F9D83D37F4A26725AA74D345AD37 /* UIColor+CEWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CEWExtension.h"; path = "CEWConst/Classes/UIColor+CEWExtension.h"; sourceTree = "<group>"; };
+		FDDA148E476486ACEF7CB7767DFAF7B7 /* CEWConst-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CEWConst-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C07D95D6A70DD7CC1786A313F0527904 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847B0E768B5569E029049D7E41183020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93D2912AECDA0F4044B3F5191E8D24 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,50 +106,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C2720B4079235B1C390DDF91A34715A /* CEWConst */ = {
+		28DD77F3F45A6948445A7CF1FEEC0C07 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				76159DCD0F4F51A876810A8ED649CC7C /* CEWColorConst.h */,
-				77CE4A23ACC50C1BB6D5B8203E5F97D7 /* CEWConst.h */,
-				AEDDC8B6D1F57D46FEFAB6010C420B49 /* CEWFontConst.h */,
-				F77C8064ACBE07075D4F856C57089E02 /* Pod */,
-				D600F0D1A70127C871847AD57D887EAE /* Support Files */,
+				0016A8BF0A96D7EEF4F94CD8158A0291 /* CEWConst.podspec */,
+				164A8593CE1266F575DF4218173D0D52 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		43B3186FAEF00DDAE1C3D46B2E1AA0E8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47B5A13A1A84325290D9F34A91604CBA /* CEWConst */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		47B5A13A1A84325290D9F34A91604CBA /* CEWConst */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC9A1603C8C7AA0E7DACF0ACA1CC3 /* CEWColorConst.h */,
+				90B0A5A50BA4FD51F3E575C9934D6EF6 /* CEWConst.h */,
+				74F852B9FFB95DD6982EA16BF0CD72F6 /* CEWFontConst.h */,
+				EE28F9D83D37F4A26725AA74D345AD37 /* UIColor+CEWExtension.h */,
+				A5A3CDF6F58AC67ADF59A07C3257BA51 /* UIColor+CEWExtension.m */,
+				28DD77F3F45A6948445A7CF1FEEC0C07 /* Pod */,
+				4BB998365F2DE0477C10E463A951E3DD /* Support Files */,
 			);
 			name = CEWConst;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		34BD8AC246D0369864D8A593C2E6F515 /* Targets Support Files */ = {
+		4BB998365F2DE0477C10E463A951E3DD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DDBB4755BE623762125E7ECD942F11AA /* Pods-CEWConst_Example */,
-				826B43057D5AAAFCA61B276F24CE047C /* Pods-CEWConst_Tests */,
+				BEE825DF1EC24D692E95A532D8EEF3D1 /* CEWConst.modulemap */,
+				7B306ED7BC1CB201569F7016E5851B8F /* CEWConst.xcconfig */,
+				BCD9282AEFFD23F750ADC1552BE3E6ED /* CEWConst-dummy.m */,
+				6ECC39B0AD8712D464B3BE4F4B9CCF25 /* CEWConst-Info.plist */,
+				FDDA148E476486ACEF7CB7767DFAF7B7 /* CEWConst-prefix.pch */,
+				7845589894ACD711FF55534A9C84ECD6 /* CEWConst-umbrella.h */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CEWConst";
 			sourceTree = "<group>";
 		};
-		826B43057D5AAAFCA61B276F24CE047C /* Pods-CEWConst_Tests */ = {
+		6E833514CCDB293BCFAE88816DB854C3 /* Pods-CEWConst_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1A9953C277CFDC5423DB258F4EFFF4F1 /* Pods-CEWConst_Tests.modulemap */,
-				A1092292A5B880C83ABF4134185858AB /* Pods-CEWConst_Tests-acknowledgements.markdown */,
-				6CCFE2101C904A50D7DF7FD841E12AD0 /* Pods-CEWConst_Tests-acknowledgements.plist */,
-				20A40F95EEDED6B5702CCBEB428178D5 /* Pods-CEWConst_Tests-dummy.m */,
-				5D6CAB4F14F460F06CB967E7E4912323 /* Pods-CEWConst_Tests-Info.plist */,
-				DC271A0DD5B529E9E228C776C53BE71C /* Pods-CEWConst_Tests-umbrella.h */,
-				6CDC11B493CFCC3C25BECB72156F6C64 /* Pods-CEWConst_Tests.debug.xcconfig */,
-				C059D0BB6F6B76E64B896BF5D25661F1 /* Pods-CEWConst_Tests.release.xcconfig */,
+				1587A443915F5DC4827BB8F9139F94E0 /* Pods-CEWConst_Tests.modulemap */,
+				9655B898EA3E8A6A08C0A03B8619B91B /* Pods-CEWConst_Tests-acknowledgements.markdown */,
+				783E51EFF04AE2F8C94C90EA38E8E4DB /* Pods-CEWConst_Tests-acknowledgements.plist */,
+				5C5ADBA9E2AD6E26186DA3D8C647ECDA /* Pods-CEWConst_Tests-dummy.m */,
+				9F5FBA571A498D1D1D4301B69505265E /* Pods-CEWConst_Tests-Info.plist */,
+				1970CEBA38B9D1C49F7FA572641B6827 /* Pods-CEWConst_Tests-umbrella.h */,
+				2E6A56A546B0AA9D8ED39F2CB84FA2DC /* Pods-CEWConst_Tests.debug.xcconfig */,
+				A0D949E872D4FC9F20D5CF1FFDFE1F09 /* Pods-CEWConst_Tests.release.xcconfig */,
 			);
 			name = "Pods-CEWConst_Tests";
 			path = "Target Support Files/Pods-CEWConst_Tests";
 			sourceTree = "<group>";
 		};
-		8D437BBFC2993BE5D87F792B3FE173F6 /* Development Pods */ = {
+		94CFB686C6E57F9BB9EB3AE22A6355FA /* Pods-CEWConst_Example */ = {
 			isa = PBXGroup;
 			children = (
-				2C2720B4079235B1C390DDF91A34715A /* CEWConst */,
+				084762B799E3E8E2C83275144BA0134A /* Pods-CEWConst_Example.modulemap */,
+				88B040A75904B18AE97BE870F2CBDD66 /* Pods-CEWConst_Example-acknowledgements.markdown */,
+				314BF888C27BA54A9E32071093793B46 /* Pods-CEWConst_Example-acknowledgements.plist */,
+				757EAB296E6E21EFD86DFD371A7FA516 /* Pods-CEWConst_Example-dummy.m */,
+				8B91FB21E31F0FDD186F3FCC93289A84 /* Pods-CEWConst_Example-frameworks.sh */,
+				47F3B1DBF429920E946421BEAD0311CC /* Pods-CEWConst_Example-Info.plist */,
+				03518F80742EC237273271B0977FA54C /* Pods-CEWConst_Example-umbrella.h */,
+				B08110358DFFAF0CD710980A665BA519 /* Pods-CEWConst_Example.debug.xcconfig */,
+				ADE4CD229726F89C37B09F70FC4EA239 /* Pods-CEWConst_Example.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Pods-CEWConst_Example";
+			path = "Target Support Files/Pods-CEWConst_Example";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -151,10 +197,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8D437BBFC2993BE5D87F792B3FE173F6 /* Development Pods */,
+				43B3186FAEF00DDAE1C3D46B2E1AA0E8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DA27DF31C9555BA8134E6FE0363CB23C /* Products */,
-				34BD8AC246D0369864D8A593C2E6F515 /* Targets Support Files */,
+				DE07B8B7512AC1DBB0389CD2AA4EB1C2 /* Products */,
+				D6BB9C2C1F55B6AFC11A737FC111D77C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,47 +212,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D600F0D1A70127C871847AD57D887EAE /* Support Files */ = {
+		D6BB9C2C1F55B6AFC11A737FC111D77C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D259A5A5208EDBABA8CBBE3D6D31FC45 /* CEWConst.xcconfig */,
+				94CFB686C6E57F9BB9EB3AE22A6355FA /* Pods-CEWConst_Example */,
+				6E833514CCDB293BCFAE88816DB854C3 /* Pods-CEWConst_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CEWConst";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DA27DF31C9555BA8134E6FE0363CB23C /* Products */ = {
+		DE07B8B7512AC1DBB0389CD2AA4EB1C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				E3612DFCB0ECA0665D3C96D746CAC984 /* CEWConst.framework */,
 				806C384A803169B2F0BCF56D45B843AF /* Pods_CEWConst_Example.framework */,
 				766E36713B889C67177DF0809D11465A /* Pods_CEWConst_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		DDBB4755BE623762125E7ECD942F11AA /* Pods-CEWConst_Example */ = {
-			isa = PBXGroup;
-			children = (
-				F1BA994F534BF418BFA144FE7B46B829 /* Pods-CEWConst_Example.modulemap */,
-				F4F7944EDCF9D31D1D88758C33FDA20C /* Pods-CEWConst_Example-acknowledgements.markdown */,
-				69071566971303C2C87A8E49A8D9C151 /* Pods-CEWConst_Example-acknowledgements.plist */,
-				DB147A15952FB833007852C0CA901FAB /* Pods-CEWConst_Example-dummy.m */,
-				55649963DA3F077D1D0FBF737968A9AA /* Pods-CEWConst_Example-Info.plist */,
-				0200275A56C13CDFF589683907EAD2B3 /* Pods-CEWConst_Example-umbrella.h */,
-				A63C6673EB38D7BF5F8298945BDA7A85 /* Pods-CEWConst_Example.debug.xcconfig */,
-				BE2A390C93BFBE0F29A9A8DB74D6995E /* Pods-CEWConst_Example.release.xcconfig */,
-			);
-			name = "Pods-CEWConst_Example";
-			path = "Target Support Files/Pods-CEWConst_Example";
-			sourceTree = "<group>";
-		};
-		F77C8064ACBE07075D4F856C57089E02 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BB834D0A61BA96DA06E487AFA5E1502C /* CEWConst.podspec */,
-				01C15DFCE7B9BBC20A4D5AB1D2E780F9 /* LICENSE */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +239,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EC4C407144AB7BD8BEC22C7401ED1C3 /* Pods-CEWConst_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11309741E0AF51086E3B090572950BD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6445406A9C04525666DF89448D0B6FE9 /* CEWColorConst.h in Headers */,
+				EE36E74FD921FE9E13CFE45DECB7D793 /* CEWConst-umbrella.h in Headers */,
+				0907904F83E6455A8165853621D20D12 /* CEWConst.h in Headers */,
+				25F3EEC7909B149D81808141003EDE01 /* CEWFontConst.h in Headers */,
+				AAB3889CB80173EDAB6F1699C90AF13B /* UIColor+CEWExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +265,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4B66D74E8B44D3B5BE9B724CBDED6105 /* CEWConst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2E45FEE403DF3FEB64FD98B6DDBB438 /* Build configuration list for PBXNativeTarget "CEWConst" */;
+			buildPhases = (
+				11309741E0AF51086E3B090572950BD2 /* Headers */,
+				7E7CE4C5B3A972F5F8C487354D99DE38 /* Sources */,
+				847B0E768B5569E029049D7E41183020 /* Frameworks */,
+				B9BAC59187AFDFFCC36734D6D631F982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CEWConst;
+			productName = CEWConst;
+			productReference = E3612DFCB0ECA0665D3C96D746CAC984 /* CEWConst.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		9E162AA240F9FA4220A558F4BCB61C9F /* Pods-CEWConst_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 428C9CA8418935EE0E36CE813D447630 /* Build configuration list for PBXNativeTarget "Pods-CEWConst_Tests" */;
@@ -286,7 +338,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DA27DF31C9555BA8134E6FE0363CB23C /* Products */;
+			productRefGroup = DE07B8B7512AC1DBB0389CD2AA4EB1C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -312,6 +364,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9BAC59187AFDFFCC36734D6D631F982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -320,6 +379,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				45F3088B6A817F432069AB1881300E98 /* Pods-CEWConst_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7CE4C5B3A972F5F8C487354D99DE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3209478A85EE4632F65C711E68B510 /* CEWConst-dummy.m in Sources */,
+				0BA80EDB518D2389E5446DD07BC3C49B /* UIColor+CEWExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +417,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		4751879B767C5296F4A23C9A3F5A3CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B306ED7BC1CB201569F7016E5851B8F /* CEWConst.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CEWConst/CEWConst-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CEWConst/CEWConst-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CEWConst/CEWConst.modulemap";
+				PRODUCT_MODULE_NAME = CEWConst;
+				PRODUCT_NAME = CEWConst;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -411,7 +510,7 @@
 		};
 		50277B815F8E050640D6A949BE7CB55D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C059D0BB6F6B76E64B896BF5D25661F1 /* Pods-CEWConst_Tests.release.xcconfig */;
+			baseConfigurationReference = A0D949E872D4FC9F20D5CF1FFDFE1F09 /* Pods-CEWConst_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -440,20 +539,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		708AB5CC2320AA822BDF517301E655FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D259A5A5208EDBABA8CBBE3D6D31FC45 /* CEWConst.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -521,9 +606,41 @@
 			};
 			name = Debug;
 		};
+		A31A2A873F5699ABB1607721046D6260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B306ED7BC1CB201569F7016E5851B8F /* CEWConst.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CEWConst/CEWConst-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CEWConst/CEWConst-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CEWConst/CEWConst.modulemap";
+				PRODUCT_MODULE_NAME = CEWConst;
+				PRODUCT_NAME = CEWConst;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A332110E3B38DDFD34FFF59165EB53C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CDC11B493CFCC3C25BECB72156F6C64 /* Pods-CEWConst_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2E6A56A546B0AA9D8ED39F2CB84FA2DC /* Pods-CEWConst_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -556,7 +673,7 @@
 		};
 		AE8C37B9DC4CC8A4C2148A45A02B4985 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE2A390C93BFBE0F29A9A8DB74D6995E /* Pods-CEWConst_Example.release.xcconfig */;
+			baseConfigurationReference = ADE4CD229726F89C37B09F70FC4EA239 /* Pods-CEWConst_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -588,22 +705,9 @@
 			};
 			name = Release;
 		};
-		C0E483E75B9FB19E93042935F8CE9339 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D259A5A5208EDBABA8CBBE3D6D31FC45 /* CEWConst.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		F04149014F31E493FC04288DFAB95DC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A63C6673EB38D7BF5F8298945BDA7A85 /* Pods-CEWConst_Example.debug.xcconfig */;
+			baseConfigurationReference = B08110358DFFAF0CD710980A665BA519 /* Pods-CEWConst_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -664,11 +768,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B31EC74163EEB954049045878ED27F0 /* Build configuration list for PBXAggregateTarget "CEWConst" */ = {
+		E2E45FEE403DF3FEB64FD98B6DDBB438 /* Build configuration list for PBXNativeTarget "CEWConst" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0E483E75B9FB19E93042935F8CE9339 /* Debug */,
-				708AB5CC2320AA822BDF517301E655FC /* Release */,
+				4751879B767C5296F4A23C9A3F5A3CE4 /* Debug */,
+				A31A2A873F5699ABB1607721046D6260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

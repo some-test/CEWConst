@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "CEWColorConst.h"
+#import "CEWConst.h"
+#import "CEWFontConst.h"
+#import "UIColor+CEWExtension.h"
 
 FOUNDATION_EXPORT double CEWConstVersionNumber;
 FOUNDATION_EXPORT const unsigned char CEWConstVersionString[];
